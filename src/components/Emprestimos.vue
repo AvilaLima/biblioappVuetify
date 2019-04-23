@@ -39,7 +39,7 @@
                       small="true"
                       color="teal "
                       text-color="white"
-                    >Copias disponiveis: {{countCopias}}</v-chip>
+                    >Copias disponiveis: {{livro.qntdDisponivel}}</v-chip>
                   </v-flex>
                   <template v-for="categoria in livro.categoria">
                     <v-flex>

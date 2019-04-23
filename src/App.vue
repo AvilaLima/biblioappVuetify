@@ -1,8 +1,12 @@
+
 <template>
-  <div id="app">
-    <GetEmprestimo/>
-    <Emprestimos/>
-  </div>
+  <v-app>
+    <div id="app">
+      <h4 class="display-3 font-weight-thin font-italic">OpenBiblio - APP</h4>
+      <GetEmprestimo/>
+      <Emprestimos/>
+    </div>
+  </v-app>
 </template>
 
 <script>
